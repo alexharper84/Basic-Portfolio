@@ -3,13 +3,138 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page Title</title>
+        <title>Portfolio</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <!-- <script src="main.js"></script> -->
-    </head>
+    
+    <style type="text/css">
+        #wrap {
+          /* overflow: hidden; */
+          margin-top: 120px;
+          padding-bottom: 20%
+          /* z-index: -1; */
+        }
+        .box {
+          width: 20%;
+          padding-bottom: 20%;
+          color: #FFF;
+          position: relative;
+          float: left;
+        }
+        .innerContent {
+          position: absolute;
+          left: 1px;
+          right: 1px;
+          top: 1px;
+          bottom: 1px;
+          background: #66F;
+          padding: 10px;
+        }
+        @media only screen and (max-width : 480px) {
+          /* Smartphone view: 1 tile */
+          .box {
+            width: 100%;
+            padding-bottom: 100%;
+          }
+        }
+        @media only screen and (max-width : 650px) and (min-width : 481px) {
+          /* Tablet view: 2 tiles */
+          .box {
+            width: 50%;
+            padding-bottom: 50%;
+          }
+        }
+        @media only screen and (max-width : 1050px) and (min-width : 651px) {
+          /* Small desktop / ipad view: 3 tiles */
+          .box {
+            width: 33.3%;
+            padding-bottom: 33.3%;
+          }
+        }
+        @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+          /* Medium desktop: 4 tiles */
+          .box {
+            width: 25%;
+            padding-bottom: 25%;
+          }
+        }
+      </style>
+
+</head>
+
     <body>
         
+  <header id="headerClearfix">
+    <div id="nameBox">
+      <div id="nameText">Alexander Harper</div>
+    </div>
+    <div id="linkDiv">
+      <div id='boxhead'>
+        <a href="index.html">About |</a>
+        <a href="portfolio.html">Portfolio |</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <div id="wrap">
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <!-- <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+        Absolutely-positioned content isn't counted in the parent's height!
+      </div> -->
+    </div>
+  </div>
+
+
+  <footer>
+    &copy; 2018 Alexander Harper
+  </footer>
     </body>
     </html>
