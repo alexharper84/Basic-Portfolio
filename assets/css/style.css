@@ -106,8 +106,7 @@ header {
 }
 
 #linkDiv {
-  position: relative;
-  left: 775px;
+  float: right;
 }
 
 #nameBox {
