@@ -140,8 +140,8 @@ input {
 }
 
 #icons {
-  position: relative;
-  top: 30%;
+  display: flex;
+  justify-content: space-around;
 }
 
 #linkDiv {
@@ -227,6 +227,7 @@ input {
   color: #ffffff;
   position: absolute;
   bottom: 5%;
+  text-align: center;
   font-size: 20pt;
   font-weight: bold;
 }
