@@ -126,6 +126,8 @@ input {
 }
 
 #contactBox {
+  position: relative;
+  right: 0%;
   border: 1px;
   font-family: "Helvetica";
   width: 270px;
