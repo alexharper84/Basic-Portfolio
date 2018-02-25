@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  text-align: center;
+  text-align: left;
 }
 
 body {
@@ -27,14 +27,7 @@ footer {
 
 form {
   display: flex;
-  justify-content: center;
-  top: 0;
-  margin-top: 150px;
-  position: absolute;
-  left: 30%;
-  background: #ffffff;
-  height: 400px;
-  z-index: -1;
+  justify-content: left;
 }
 
 header {
@@ -47,6 +40,16 @@ header {
   width: 100%;
   overflow:scroll;
   z-index: 1;
+}
+
+input {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Arial';
+  padding: 10px;
+  text-align: left;
+  float: left;
 }
 
 .clearfix::after {
@@ -65,14 +68,6 @@ header {
   border-top: 2px solid gray;
 }
 
-#aboutBold {
-  font-family: "Helvetica";
-  text-align: left;
-  color: #4aaaa5;
-  font-size: 30px;
-  font-weight: bold;
-}
-
 .box-set {
   display: flex;
   flex-flow: wrap;
@@ -83,9 +78,17 @@ header {
   width: 290px;
   height: 320px;
   margin: 7px;
-width: 290px;
-height: 320px;
-margin-bottom: 40px;
+  width: 290px;
+  height: 320px;
+  margin-bottom: 40px;
+}
+
+#aboutBold {
+  font-family: "Helvetica";
+  text-align: left;
+  color: #4aaaa5;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 #boxhead a{
@@ -112,6 +115,16 @@ margin-bottom: 40px;
   z-index: -1;
 }
 
+#contentAreaContact {
+  margin-top: 112px;
+  max-width: 960px;
+  position: relative;
+  left: 150px;
+  border: 1px;
+  z-index: -1;
+  background-color: white;
+}
+
 #contactBox {
   border: 1px;
   font-family: "Helvetica";
@@ -123,7 +136,7 @@ margin-bottom: 40px;
 
 #headerClearfix {
   display: flex;
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 #icons {
@@ -225,7 +238,6 @@ margin-bottom: 40px;
   font-size: 20px;
   font-weight: bold;
 }
-
 
 #side {
   position: relative;
