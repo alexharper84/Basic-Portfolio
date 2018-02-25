@@ -27,7 +27,7 @@ footer {
 
 form {
   display: flex;
-  justify-content: center
+  justify-content: center;
   top: 0;
   margin-top: 150px;
   position: absolute;
@@ -65,16 +65,27 @@ header {
   border-top: 2px solid gray;
 }
 
-#aside {
+#aboutBold {
+  font-family: "Helvetica";
+  text-align: left;
+  color: #4aaaa5;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.box-set {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.box {
   position: relative;
-  top: 20%;
-  float: left;
-  width: 650px;
-  padding: 20px;
-  margin-left: 10px;
-  margin-bottom: 80px;
-  background: #fff;
-  border: 1px solid #eee;
+  width: 290px;
+  height: 320px;
+  margin: 7px;
+width: 290px;
+height: 320px;
+margin-bottom: 40px;
 }
 
 #boxhead a{
@@ -148,11 +159,62 @@ header {
   text-align: center;
 }
 
-#aboutBold {
+#projectBox {
+  position: absolute;
+  bottom: 0%;
+  left: 6%;
+  padding-top: 30px;
+  width: 90%;
+  height: 72px;
+  background: #4aaaa5;
+}
+
+#projectBoxOne {
+  position: absolute;
+  bottom: -5%;
+  left: 7%;
+  padding-top: 30px;
+  width: 90%;
+  height: 72px;
+  background: #4aaaa5;
+}
+
+#projectText {
   font-family: "Helvetica";
-  text-align: left;
-  color: #4aaaa5;
-  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 3%;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+#projectTextOne {
+  font-family: "Helvetica";
+  color: #ffffff;
+  position: absolute;
+  bottom: 25%;
+  left: 7%;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+#projectTextTwo {
+  font-family: "Helvetica";
+  color: #ffffff;
+  position: absolute;
+  bottom: 25%;
+  left: 23%;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+#projectTextThree {
+  font-family: "Helvetica";
+  color: #ffffff;
+  position: absolute;
+  bottom: 5%;
+  font-size: 20pt;
   font-weight: bold;
 }
 
@@ -162,6 +224,19 @@ header {
   color: black;
   font-size: 20px;
   font-weight: bold;
+}
+
+
+#side {
+  position: relative;
+  top: 20%;
+  float: left;
+  width: 650px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-bottom: 80px;
+  background: #fff;
+  border: 1px solid #eee;
 }
 
 #TextWrap {

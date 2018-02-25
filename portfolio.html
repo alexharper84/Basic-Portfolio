@@ -1,71 +1,15 @@
 <!DOCTYPE html>
-    <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-        <!-- <script src="main.js"></script> -->
-    
-    <style type="text/css">
-        #wrap {
-          /* overflow: hidden; */
-          margin-top: 120px;
-          padding-bottom: 20%
-          /* z-index: -1; */
-        }
-        .box {
-          width: 20%;
-          padding-bottom: 20%;
-          color: #FFF;
-          position: relative;
-          float: left;
-        }
-        .innerContent {
-          position: absolute;
-          left: 1px;
-          right: 1px;
-          top: 1px;
-          bottom: 1px;
-          background: #66F;
-          padding: 10px;
-        }
-        @media only screen and (max-width : 480px) {
-          /* Smartphone view: 1 tile */
-          .box {
-            width: 100%;
-            padding-bottom: 100%;
-          }
-        }
-        @media only screen and (max-width : 650px) and (min-width : 481px) {
-          /* Tablet view: 2 tiles */
-          .box {
-            width: 50%;
-            padding-bottom: 50%;
-          }
-        }
-        @media only screen and (max-width : 1050px) and (min-width : 651px) {
-          /* Small desktop / ipad view: 3 tiles */
-          .box {
-            width: 33.3%;
-            padding-bottom: 33.3%;
-          }
-        }
-        @media only screen and (max-width : 1290px) and (min-width : 1051px) {
-          /* Medium desktop: 4 tiles */
-          .box {
-            width: 25%;
-            padding-bottom: 25%;
-          }
-        }
-      </style>
-
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-    <body>
-        
+<body>
   <header id="headerClearfix">
     <div id="nameBox">
       <div id="nameText">Alexander Harper</div>
@@ -79,62 +23,47 @@
     </div>
   </header>
 
-  <div id="wrap">
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <!-- <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div>
-    </div>
-    <div class="box">
-      <div class="innerContent">
-        Absolutely-positioned content isn't counted in the parent's height!
-      </div> -->
-    </div>
-  </div>
+  <div id="contentArea">
+    <section id="side">
+      <h1 id="aboutBold">Portfolio</h2>
+        <div class="verticalLine"></div>
 
+        <div class="box-set">
+          <figure class="box box-1">    
+            <div id="projectBox">
+              <div id="projectText">Full Stack Web Dev</div>
+            </div>
+            <img width="300" height="350" src="http://s3.amazonaws.com/abn-prod/wp-content/uploads/sites/7/2017/07/web-developer.jpg" border="0" alt=""></a>
+          </figure>
+          <figure class="box box-2">            <div id="projectBox">
+              <div id="projectTextOne">Tech Consultant</div>
+            </div>
+            <img width="300" height="350" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU05pbcVqLQla4zYoNl60Te1kEj7F3qrYGvo01bT-ny6YqeP_L" border="0" alt=""></a></figure>
+          <figure class="box box-3">            <div id="projectBoxOne">
+              <div id="projectTextTwo">Life Coach</div>
+            </div>
+            <img width="300" height="350" src="http://img.izismile.com/img/img7/20140513/640/weird_stock_photos_that_make_absolutely_no_sense_640_37.jpg" border="0" alt=""></a></figure>
+          <figure class="box box-4">            <div id="projectBoxOne">
+              <div id="projectTextThree">Multi Level Marketing</div>
+            </div>
+            <img width="300" height="350" src="https://i.imgflip.com/1p4ytx.jpg" border="0" alt=""></a></figure>
+        </div>
+      </section>
+      <section class="right">
+        <div id="contactBox">
+          <h3 id="centerBold"> Connect With Me </h3>
+          <div class="verticalLine"></div>
+          <div id="icons ">
+            <a href="https://github.com/alexharper84"><img src="assets/images/github-icon.png" height= "60px" width= "60px"></a>
+            <a href="https://stackexchange.com/users/12789713/lensbookshelf"><img src="assets/images/so-icon.png" height= "60px" width= "60px"></a>
+            <a href="https://www.linkedin.com/in/alexander-harper-764a0a157/"><img src="assets/images/linkedin-icon.png" height= "60px" width= "60px"></a>
+          </div>
+        </div>
+      </section>
+    </div>
 
-  <footer>
-    &copy; 2018 Alexander Harper
-  </footer>
-    </body>
-    </html>
+    <footer>
+      &copy; 2018 Alexander Harper
+    </footer>
+  </body>
+  </html>
